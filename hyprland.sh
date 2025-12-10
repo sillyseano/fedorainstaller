@@ -1,4 +1,4 @@
-sudo dnf copr enable solopasha/hyprland
+sudo dnf copr enable lionheartp/Hyprland
 sudo dnf install hyprland kitty waybar hyprpolkitagent NetworkManager NetworkManager-wifi wpa_supplicant mako xdg-desktop-portal-hyprland pavucontrol rofi pcmanfm file-roller gnome-keyring-pam sddm nwg-look swww waypaper fontawesome-fonts kernel-modules-extra fuse fuse-libs satty fastfetch btop
 systemctl --user enable --now hyprpolkitagent.service
 sudo dnf remove wofi
